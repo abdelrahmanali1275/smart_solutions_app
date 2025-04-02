@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:smart_solutions_application/core/utils/app_colors.dart';
+import 'package:smart_solutions_application/core/utils/app_constants.dart';
 
 import '../../constants.dart';
 
@@ -17,6 +18,13 @@ abstract class Styles {
     color: AppColors.kTextColorLight,
     letterSpacing: -0.2,
   );
+  static TextStyle hintText(context) => TextStyle(
+    fontSize: MediaQuery.of(context).size.height * .017,
+    fontWeight: FontWeight.w400,
+    color: Colors.black,
+    fontFamily: "Sora",
+  );
+
 
   static final descriptionTextStyle = TextStyle(
     fontSize: 8.sp,
@@ -38,6 +46,21 @@ abstract class Styles {
     color: AppColors.kTextColorLight,
     letterSpacing: -0.2,
   );
+  static const textBlue16Bold = TextStyle(
+    color: AppColors.kPrimaryColor,
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+  );
+  static const textBlack16Bold = TextStyle(
+    color: AppColors.black,
+    fontSize: 16,
+    fontWeight: FontWeight.bold,
+  );static const textBlack14Bold = TextStyle(
+    color: AppColors.black,
+    fontSize: 14,
+    fontWeight: FontWeight.bold,
+  );
+
 
   static final addedServiceTextStyle = TextStyle(
     fontSize: 8.sp,

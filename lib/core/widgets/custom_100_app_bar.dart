@@ -4,11 +4,15 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class CustomAppBar100 extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final String? imagePath;
+  final Widget? widget;
+
 
   const CustomAppBar100({
     super.key,
     required this.title,
     this.imagePath,
+    this.widget,
+
   });
 
   @override
@@ -16,6 +20,9 @@ class CustomAppBar100 extends StatelessWidget implements PreferredSizeWidget {
     return AppBar(
       backgroundColor: Colors.white,
       titleSpacing: 0,
+      leading: const SizedBox(),
+      actions: [
+     widget ??   Padding(
       leading: SizedBox(),
       actions: [
         Padding(

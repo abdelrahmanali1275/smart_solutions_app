@@ -25,6 +25,9 @@ import 'package:smart_solutions_application/presentaion/manager/notifications_cu
 import 'package:smart_solutions_application/presentaion/manager/owners_cubit/owners_cubit.dart';
 import 'package:smart_solutions_application/presentaion/manager/services_cubit/services_cubit.dart';
 import 'package:smart_solutions_application/presentaion/screens/100_200_app/main_layout/presentation/view_model/change_nav_bar_status/change_nav_bar_status_cubit.dart';
+import 'package:smart_solutions_application/presentaion/screens/100_200_app/sensors_100/manager/sensor_100_cubit.dart';
+import 'package:smart_solutions_application/presentaion/screens/100_200_app/statistics/manager/statistics__cubit.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -78,6 +81,12 @@ class MyApp extends StatelessWidget {
             BlocProvider(
               create: (context) =>
                   NotificationsCubit(NotificationsRepoImplementation()),
+            ),
+            BlocProvider(
+              create: (context) => Sensor100Cubit(),
+            ),
+            BlocProvider(
+              create: (context) => StatisticsCubit(),
             ),
             BlocProvider(
               create: (context) =>

@@ -20,4 +20,10 @@ class AppColors {
   static const Color successGreen = Colors.green;
   static const Color white = Colors.white;
   static const Color lightGreen = Color(0xffF6F9F8);
+  static const Color blue10 = Color(0x8099caff);
+  static const Color green10 = Color(0x1a00b69b);
+  static const Color red10 = Color(0x1af93c65);
+  static const Color yellow40 = Color(0x66f7e9b7);
+  static const Color darkGreen = Color(0xff328354);
+
 }

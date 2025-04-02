@@ -238,4 +238,17 @@ class AppStrings {
   static const String userProfile = 'ملف المستخدم';
   static const String privacyPolicy = 'سياسة الخصوصية';
   static const String termsOfUse = 'شروط الاستخدام';
+  static const String sensors = 'المستشعرات';
+  static const String sensorH = 'مستشعر الحرارة';
+  static const String sensorAndNum = 'مستشعر الحرارة | رقم المستشعر';
+  static const String sensorsRemote = 'ادارة المستشعرات';
+  static const String activee = 'النشطة';
+  static const String inactivee = 'غير النشطة';
+  static const String search = 'بحث';
+  static const String reports = 'التقارير';
+  static const String reportAndHistory = 'السجلات والتقارير';
+  static const String settings = 'الاعدادات';
+  static const String statistics = 'الاحصائيات';
+  static const String statistic = 'احصائيات';
+
 }

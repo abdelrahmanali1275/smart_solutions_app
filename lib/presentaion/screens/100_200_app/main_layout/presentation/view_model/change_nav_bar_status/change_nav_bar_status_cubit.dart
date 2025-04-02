@@ -19,6 +19,13 @@ class ChangeNavBarStatusCubit extends Cubit<ChangeNavBarStatusState> {
   ];
   List<String> labels = [
     AppStrings.homeTitle,
+    AppStrings.sensors,
+    AppStrings.reports,
+    AppStrings.statistics,
+    AppStrings.settings,
+  ];
+
+
     AppStrings.homeTitle,
     AppStrings.homeTitle,
     AppStrings.homeTitle,
@@ -34,7 +41,6 @@ class ChangeNavBarStatusCubit extends Cubit<ChangeNavBarStatusState> {
     AppAssets.alignBottom,
     AppAssets.gear,
   ];
-
 
   int currentIndex = 0;
 
