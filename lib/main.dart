@@ -28,6 +28,7 @@ import 'package:smart_solutions_application/presentaion/screens/100_200_app/main
 import 'package:smart_solutions_application/presentaion/screens/100_200_app/sensors_100/manager/sensor_100_cubit.dart';
 import 'package:smart_solutions_application/presentaion/screens/100_200_app/statistics/manager/statistics__cubit.dart';
 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await EasyLocalization.ensureInitialized();

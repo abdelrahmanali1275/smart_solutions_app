@@ -250,4 +250,5 @@ class AppStrings {
   static const String settings = 'الاعدادات';
   static const String statistics = 'الاحصائيات';
   static const String statistic = 'احصائيات';
+
 }

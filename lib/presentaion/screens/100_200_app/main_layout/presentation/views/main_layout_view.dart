@@ -23,6 +23,10 @@ class _MainLayoutViewState extends State<MainLayoutView> {
     const ReportsScreen100(),
     const StatisticsScreen(),
     const SettingsScreen(),
+    const SizedBox(),
+    const SizedBox(),
+    const SizedBox(),
+    const SizedBox(),
   ];
 
   @override

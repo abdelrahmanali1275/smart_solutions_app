@@ -25,6 +25,7 @@ abstract class Styles {
     fontFamily: "Sora",
   );
 
+
   static final descriptionTextStyle = TextStyle(
     fontSize: 8.sp,
     fontWeight: FontWeight.w400,
@@ -59,6 +60,7 @@ abstract class Styles {
     fontSize: 14,
     fontWeight: FontWeight.bold,
   );
+
 
   static final addedServiceTextStyle = TextStyle(
     fontSize: 8.sp,

@@ -3,6 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:smart_solutions_application/constants.dart';
 import 'package:smart_solutions_application/core/utils/app_constants.dart';
 
+
 class CustomButton extends StatelessWidget {
   const CustomButton(
       {super.key,
@@ -14,6 +15,8 @@ class CustomButton extends StatelessWidget {
       this.borderColor,
       this.widget});
 
+
+      this.textColor = Colors.white});
   final String title;
   final VoidCallback onTap;
   final isdisable;
@@ -21,6 +24,7 @@ class CustomButton extends StatelessWidget {
   final Color? borderColor;
   final textColor;
   final Widget? widget;
+
 
   @override
   Widget build(BuildContext context) {
@@ -46,6 +50,13 @@ class CustomButton extends StatelessWidget {
               style: TextStyle(color: textColor, fontSize: 12.sp),
             ),
           ],
+
+            color: isdisable ? color : kPrimaryColor.withOpacity(50 / 100)),
+        child: Center(
+          child: Text(
+            title,
+            style: TextStyle(color: textColor, fontSize: 12.sp),
+          ),
         ),
       ),
     );

@@ -25,6 +25,15 @@ class ChangeNavBarStatusCubit extends Cubit<ChangeNavBarStatusState> {
     AppStrings.settings,
   ];
 
+
+    AppStrings.homeTitle,
+    AppStrings.homeTitle,
+    AppStrings.homeTitle,
+    AppStrings.homeTitle,
+  ];
+
+
+
   List<String> selectedIcons = [
     AppAssets.home100,
     AppAssets.dropHalf,

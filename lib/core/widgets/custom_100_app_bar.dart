@@ -6,11 +6,13 @@ class CustomAppBar100 extends StatelessWidget implements PreferredSizeWidget {
   final String? imagePath;
   final Widget? widget;
 
+
   const CustomAppBar100({
     super.key,
     required this.title,
     this.imagePath,
     this.widget,
+
   });
 
   @override
@@ -21,6 +23,9 @@ class CustomAppBar100 extends StatelessWidget implements PreferredSizeWidget {
       leading: const SizedBox(),
       actions: [
      widget ??   Padding(
+      leading: SizedBox(),
+      actions: [
+        Padding(
           padding: const EdgeInsets.all(8.0),
           child: CircleAvatar(
             radius: 20,
