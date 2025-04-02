@@ -19,7 +19,6 @@ class AppAssets {
   static const servicesAvailable = 'assets/icons/services_available.svg';
   static const sendReplay = 'assets/icons/send_replay.svg';
   static const filter = 'assets/images/filter.png';
-  static const ghaz = 'assets/images/ghaz.jpeg';
   static const installation = 'assets/icons/installation.svg';
   static const image = 'assets/images/image.png';
   static const alarm = 'assets/icons/alarm.svg';
@@ -55,4 +54,6 @@ class AppAssets {
   static const dropHalf = 'assets/images/DropHalf.svg';
   static const export = 'assets/images/export.svg';
   static const edit = 'assets/images/edit.svg';
+  static const ghaz = 'assets/images/ghaz.jpeg';
+
 }
